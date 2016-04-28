@@ -1,7 +1,11 @@
 # Личный проект «Техномарт»
 
 * Студент: [Stas Green](https://up.htmlacademy.ru/htmlcss/13/user/179324).
+<<<<<<< Updated upstream
 * Наставник: [Albert Sharikov](https://htmlacademy.ru/profile/insanegrv)
+=======
+* Наставник: `Альберт Шариков`.
+>>>>>>> Stashed changes
 
 ---
 
