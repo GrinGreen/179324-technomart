@@ -37,7 +37,7 @@ for (i = 0; i < buyItemButtons.length; ++i) {
 	buyItemButtons[i].addEventListener("click", function (event) {
 		event.preventDefault(event);
 		cartBlock.classList.add("show-block");
-	})
+	});
 }
 
 cartClose.addEventListener("click", function (event) {
@@ -88,7 +88,7 @@ for (i = 0; i < serviceLinks.length; ++i) {
 	serviceLinks[i].addEventListener("click", function (event) {
 		event.preventDefault(event);
         for (j = 0; j < serviceLinks.length; ++j) {
-            serviceLinks[j].classList.remove("service-list-active");        
+            serviceLinks[j].classList.remove("service-list-active");
         }
         for (h = 0; h < serviceLinks.length; ++h) {
             if (serviceLinks[h] == this) {
@@ -99,7 +99,7 @@ for (i = 0; i < serviceLinks.length; ++i) {
                 serviceBlocks[h].classList.add("service-details-active");
             }
         }
-	})
+	});
 }
 
 function initialize() {
@@ -110,7 +110,7 @@ function initialize() {
         center: new google.maps.LatLng(x, y),
         scrollwheel: false,
         disableDefaultUI: true
-    }
+    };
     var map = new  google.maps.Map(
         document.querySelector(".map-script"),
         mapOptions
