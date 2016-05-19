@@ -201,14 +201,11 @@ label {
     color: rgba(0, 0, 0, .3);
 }
 
-.block-user::before {
+.header-block-logout {
     margin-left: 15px;
-
     content: "\241b";
-
     color: #c5c5c5;
 }
-
 .header-bottom-panel a {
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
