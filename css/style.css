@@ -221,7 +221,7 @@ label {
     line-height: 30px;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .slider-btn,
